@@ -7,6 +7,8 @@
 </head>
 
 <body>
+    {{ template "header" . }}
+
     <h1>{{.Name}}</h1>
     <p>{{.Description}}</p>
     <p>Price : <strong>{{.Price}}</strong> $</p>
@@ -16,7 +18,9 @@
         <li>Ultra Express + 5$</li>
         <li>Normal</li>
     </ul>
+
     <h3>This was a {{.}}</h3>
+    {{ template "footer" . }}
 </body>
 
 </html>
