@@ -1,26 +1,26 @@
 <!--views/product.html-->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> 
 <html>
 
 <head>
     <title>{{.Name}}</title>
 </head>
 
-<body>
-    {{ template "header" . }}
+<body> -->
+{{ template "header" . }}
 
-    <h1>{{.Name}}</h1>
-    <p>{{.Description}}</p>
-    <p>Price : <strong>{{.Price}}</strong> $</p>
-    <h2>Delivery options</h2>
-    <ul>
-        <li>Express + 2$ </li>
-        <li>Ultra Express + 5$</li>
-        <li>Normal</li>
-    </ul>
+<h1>{{.Name}}</h1>
+<p>{{.Description}}</p>
+<p>Price : <strong>{{.Price}}</strong> $</p>
+<h2>Delivery options</h2>
+<ul>
+    <li>Express + 2$ </li>
+    <li>Ultra Express + 5$</li>
+    <li>Normal</li>
+</ul>
 
-    <h3>This was a {{.}}</h3>
-    {{ template "footer" . }}
-</body>
+<h3>This was a {{.}}</h3>
+{{ template "footer" . }}
+<!-- </body>
 
-</html>
+</html> -->

@@ -23,8 +23,8 @@ func redTeaPotHandler(w http.ResponseWriter, r *http.Request) {
 		log.Printf("Failed to parse template: %v", err)
 		return
 	}
-	pageTitle := "Red Tea Pot Page"
-	teaPot := Product{Name: "Red Tea Pot 250ml", Description: " llll Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun tut labore et dolore", Price: "19.99"}
+	pageTitle := "Red TeaPot Page"
+	teaPot := Product{Name: "ReddTea Pot 250ml", Description: "ğ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun tut labore et dolore", Price: "19.99"}
 
 	/*//err = tmpl.Execute(w, teaPot)
 	err = tmpl.ExecuteTemplate(w, "product.html", teaPot)*/
